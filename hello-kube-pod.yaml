@@ -10,4 +10,4 @@ spec:
     - name: halo-kube
       image: ngoprek/halo-kube
       ports:
-          - containerPort: 80
+          - containerPort: 80 
