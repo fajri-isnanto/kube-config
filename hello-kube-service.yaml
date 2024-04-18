@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: service
+metadata:
+  name: halo-kube
+spec:
+  type: LoadBalancer
+  ports:
+    - ports: 80
+      targetPort: 80
+  selector:
+    component: web
