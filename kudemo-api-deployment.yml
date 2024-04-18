@@ -17,3 +17,7 @@ spec:
           image: ngoprek/kudemo-todo-api
           ports:
             - containerPort: 3000
+          
+          env:
+            - name: POSTGRES_ENABLED
+              value: "false"
